@@ -2,8 +2,7 @@
 
 A simple fullstack web app to practice CI/CD pipeline with GitHub Actions and deployment to Render.
 
-: 
-[LIVE DEMO]([https://streamlit.io/](https://voting-app-devops-tutorial.onrender.com)). 
+[LIVE DEMO]([https://render.com](https://voting-app-devops-tutorial.onrender.com))
 
 ![Screenshot](https://github.com/alfhisa/voting-app-devops-tutorial/raw/main/demo.png)
 
