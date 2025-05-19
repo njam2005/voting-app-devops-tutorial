@@ -25,7 +25,7 @@ npm start
 
 Visit `http://localhost:3000` in your browser.
 
-## ⚙️ CI Pipeline with GitHub Actions
+## CI Pipeline with GitHub Actions
 
 The CI workflow is defined at:
 
