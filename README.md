@@ -1,4 +1,4 @@
-# 🗳️ Voting App – DevOps Pipeline Tutorial
+# Voting App – DevOps Pipeline Tutorial
 
 A simple fullstack web app designed for students to **learn and practice CI/CD pipeline** using GitHub Actions and deployment to [Render](https://render.com).
 
