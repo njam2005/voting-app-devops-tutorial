@@ -17,7 +17,7 @@ A simple fullstack web app designed for students to **learn and practice CI/CD p
 
 ---
 
-## 📂 Features
+## Features
 
 - Simple voting app
 - Real-time results display
