@@ -1,20 +1,41 @@
-# Voting App – DevOps Pipeline Tutorial
+# 🗳️ Voting App – DevOps Pipeline Tutorial
 
-A simple fullstack web app to practice CI/CD pipeline with GitHub Actions and deployment to Render.
+A simple fullstack web app designed for students to **learn and practice CI/CD pipeline** using GitHub Actions and deployment to [Render](https://render.com).
 
-✅ Click here for [LIVE DEMO](https://voting-app-devops-tutorial.onrender.com)
+🚀 [LIVE DEMO](https://voting-app-devops-tutorial.onrender.com) – deployed from this repository  
 
 ![Screenshot](https://github.com/alfhisa/voting-app-devops-tutorial/raw/main/demo.png)
 
-## Features
+---
 
-- Vote between Python, JavaScript, and Go
-- Realtime results with live update
+## What You'll Learn
+
+- How to fork a repo and deploy your own web app
+- How CI/CD works using GitHub Actions
+- How to deploy to free hosting with Render
+- How Docker, pipeline automation, and deployment relate to DevOps
+
+---
+
+## 📂 Features
+
+- Simple voting app
+- Real-time results display
 - Minimal and responsive UI
-- GitHub Actions CI
-- Easy deploy to [Render](https://render.com)
+- GitHub Actions CI pipeline
+- One-click deploy to Render (Node.js hosting)
 
-## How to Run Locally
+---
+
+## Instructions for Students
+
+### 1. **Fork This Repository**
+
+Click the **"Fork"** button on the top-right of this GitHub repo. This will create a copy of the repo under your own GitHub account.
+
+---
+
+### 2. **Run Locally (Optional)**
 
 ```bash
 git clone https://github.com/your-username/voting-app-devops-tutorial.git
@@ -23,51 +44,51 @@ npm install
 npm start
 ```
 
-Visit `http://localhost:3000` in your browser.
-
-## CI Pipeline with GitHub Actions
-
-The CI workflow is defined at:
-
-```bash
-.github/workflows/ci.yml
-```
-
-### What It Does:
-- Installs dependencies
-- Runs build script
-- Optionally runs tests (you can extend it)
-- Ensures build passes before deployment
-
-To enable:
-1. Push your project to GitHub.
-2. GitHub Actions will automatically trigger the CI on every `push` or `pull_request`.
+Then open `http://localhost:3000` in your browser.
 
 ---
 
-## Deployment to Render (Free Hosting)
+### 3. **Deploy to Render (Free Hosting)**
 
-You can deploy this fullstack app in **minutes**.
+#### Steps:
 
-### Steps:
-
-1. Go to [https://render.com](https://render.com) and log in with GitHub
-2. Click **"New Web Service"**
-3. Connect to your GitHub repo:  
-   `voting-app-devops-tutorial`
-4. Set these values:
+1. Go to [https://render.com](https://render.com) and log in with your GitHub.
+2. Click **"New Web Service"**.
+3. Choose **your forked repo** (e.g. `voting-app-devops-tutorial`).
+4. Use the following settings:
    - **Environment**: `Node`
    - **Build Command**: `npm install`
    - **Start Command**: `npm start`
-   - **Root Directory**: Leave empty (if `package.json` is in root)
-5. Click **Create Web Service**
-6. Wait for Render to build and deploy your app
+   - **Root Directory**: *(leave empty)*
+5. Click **"Create Web Service"**.
+6. Wait for Render to build and deploy your app.
 
-Done! Your app will be live with a public URL like:  
-`https://voting-app-devops.onrender.com`
+Once done, your voting app will be available at a public URL like:
+```
+https://your-app-name.onrender.com
+```
+
+---
+
+## CI Pipeline with GitHub Actions
+
+GitHub Actions workflow file is located at:
+
+```
+.github/workflows/ci.yml
+```
+
+It will:
+- Run `npm install` to install dependencies
+- Optionally run tests (can be extended)
+- Ensure build success before allowing deployment
+
+The pipeline is automatically triggered on:
+- `push` to any branch
+- Pull requests
 
 ---
 
 ## Credits
 
-By [@alfhisa](https://github.com/alfhisa) for teaching purposes.
+This tutorial is created by [@alfhisa](https://github.com/alfhisa) for educational use in DevOps and Software Engineering courses.
