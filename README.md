@@ -89,6 +89,6 @@ The pipeline is automatically triggered on:
 
 ---
 
-## Credits
+## Final Notes
 
 This tutorial is created by [@alfhisa](https://github.com/alfhisa) for educational use in DevOps and Software Engineering courses.
